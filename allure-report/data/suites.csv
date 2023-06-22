@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jun 22 17:56:39 IST 2023","Thu Jun 22 17:56:42 IST 2023","3020","","Running the contanct us functionlity","","","","Element Matchers Validation",""
+"passed","Thu Jun 22 17:56:33 IST 2023","Thu Jun 22 17:56:39 IST 2023","6299","","Running the contanct us functionlity","","","","Input values text and adding all types of Expect condition",""
 "passed","Thu Jun 22 16:28:10 IST 2023","Thu Jun 22 16:28:11 IST 2023","1005","","Running the contanct us functionlity","","","","Element Matchers Validation",""
-"passed","Thu Jun 22 17:43:58 IST 2023","Thu Jun 22 17:44:01 IST 2023","2864","","Running the contanct us functionlity","","","","Element Matchers Validation",""
-"passed","Thu Jun 22 17:43:52 IST 2023","Thu Jun 22 17:43:58 IST 2023","5623","","Running the contanct us functionlity","","","","Input values text and adding all types of Expect condition",""
 "passed","Thu Jun 22 16:28:06 IST 2023","Thu Jun 22 16:28:10 IST 2023","4162","","Running the contanct us functionlity","","","","Input values text and adding all types of Expect condition",""
