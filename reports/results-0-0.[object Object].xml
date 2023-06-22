@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Running the contanct us functionlity" timestamp="2023-06-22T16:28:06" time="5.177" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Running the contanct us functionlity"/>
+      <property name="capabilities" value="chrome.114_0_5735_134.windows"/>
+      <property name="file" value="file:///C:/Users/Ravi_Teja_Muppala/Documents/gitWebdriverIO/webdriverIO/tests/specs/contactus.spec.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_134.windows.Running_the_contanct_us_functionlity" name="Input values text and adding all types of Expect condition" time="4.162">
+      <system-out><![CDATA[
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/url - {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+RESULT: {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/url - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/url - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/title - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/title - {}
+RESULT: {}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element - {"using":"css selector","value":"[name='first_name']"}
+RESULT: {"using":"css selector","value":"[name='first_name']"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element/29C1C0625F120218D9EEA6BD1902D1CC_element_2/value - {"text":"Ravi Teja"}
+RESULT: {"text":"Ravi Teja"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element - {"using":"css selector","value":"[name='last_name']"}
+RESULT: {"using":"css selector","value":"[name='last_name']"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element/29C1C0625F120218D9EEA6BD1902D1CC_element_6/value - {"text":"Muppalla"}
+RESULT: {"text":"Muppalla"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element - {"using":"css selector","value":"[name='email']"}
+RESULT: {"using":"css selector","value":"[name='email']"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element/29C1C0625F120218D9EEA6BD1902D1CC_element_7/value - {"text":"ravitejamuppalla5120@gmail.com"}
+RESULT: {"text":"ravitejamuppalla5120@gmail.com"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element - {"using":"css selector","value":"[name='message']"}
+RESULT: {"using":"css selector","value":"[name='message']"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element/29C1C0625F120218D9EEA6BD1902D1CC_element_8/value - {"text":"THis is sample code for testing value"}
+RESULT: {"text":"THis is sample code for testing value"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.114_0_5735_134.windows.Running_the_contanct_us_functionlity" name="Element Matchers Validation" time="1.006">
+      <system-out><![CDATA[
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/url - {"url":"http://www.webdriveruniversity.com/"}
+RESULT: {"url":"http://www.webdriveruniversity.com/"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element - {"using":"css selector","value":"#contact-us"}
+RESULT: {"using":"css selector","value":"#contact-us"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"23D1A57C731BA32B9F2446F040A6DF79_element_10","ELEMENT":"23D1A57C731BA32B9F2446F040A6DF79_element_10"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"23D1A57C731BA32B9F2446F040A6DF79_element_10","ELEMENT":"23D1A57C731BA32B9F2446F040A6DF79_element_10"}]}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/elements - {"using":"css selector","value":"#contact-us"}
+RESULT: {"using":"css selector","value":"#contact-us"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/elements - {"using":"css selector","value":"#contact-us"}
+RESULT: {"using":"css selector","value":"#contact-us"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/elements - {"using":"css selector","value":"#contact-us"}
+RESULT: {"using":"css selector","value":"#contact-us"}
+COMMAND: POST /session/fb5921c75984e067b1e8fc5631a0ec10/element - {"using":"xpath","value":"//*[@id='contact-us']/div"}
+RESULT: {"using":"xpath","value":"//*[@id='contact-us']/div"}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/element/23D1A57C731BA32B9F2446F040A6DF79_element_11/attribute/class - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/element/23D1A57C731BA32B9F2446F040A6DF79_element_11/attribute/class - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/element/23D1A57C731BA32B9F2446F040A6DF79_element_11/attribute/class - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/element/23D1A57C731BA32B9F2446F040A6DF79_element_11/attribute/class - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/element/23D1A57C731BA32B9F2446F040A6DF79_element_11/attribute/class - {}
+RESULT: {}
+COMMAND: GET /session/fb5921c75984e067b1e8fc5631a0ec10/element/23D1A57C731BA32B9F2446F040A6DF79_element_11/attribute/class - {}
+RESULT: {}
+COMMAND: DELETE /session/fb5921c75984e067b1e8fc5631a0ec10 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
