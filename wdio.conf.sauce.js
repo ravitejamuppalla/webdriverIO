@@ -159,18 +159,7 @@ export const config = {
     //     },
     //   },
     // ],
-    [
-      "browserstack",
-      {
-        testObservability: true,
-        testObservabilityOptions: {
-          projectName: "Your project name goes here",
-          buildName:
-            "The static build job name goes here e.g. Nightly regression",
-        },
-        browserstackLocal: true,
-      },
-    ],
+    ["browserstack"],
   ],
   sauceConnect: false,
   // Framework you want to run your specs with.
